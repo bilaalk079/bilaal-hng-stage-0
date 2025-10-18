@@ -1,4 +1,4 @@
-# Backend Wizards — Stage 0 Task
+# Kolawole Bilaal — HNG Stage 0 Task
 
 This project implements a simple REST API endpoint `/me` that returns profile information and a dynamic cat fact.
 
