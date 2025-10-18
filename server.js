@@ -3,7 +3,14 @@ import cors from "cors";
 import axios from "axios";
 
 const app = express();
-app.use(cors())
+app.use(cors());
+app.get("/", async (req, res) => {
+  try {
+    res.status(200).json({ status: "success", message: "Visit the '/me' endpoint" });
+  } catch (err) {
+    res.status(500).json({ success: "failure", message: "Internal Server Error" });
+  }
+});
 app.get("/me", async (req, res) => {
   try {
     const response = await axios.get("https://catfact.ninja/fact", { timeout: 5000 });
