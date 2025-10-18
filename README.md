@@ -24,7 +24,7 @@ Returns user profile information and a random cat fact.
     "name": "Kolawole Bilaal",
     "stack": "Node.js(Express)"
   },
-  "timestamp": "2025-10-18T12:00:00.000Z",
+  "timestamp": "Current Timestamp",
   "fact": "A random cat fact"
 }
 ```
@@ -52,14 +52,14 @@ npm install
 
 **3. Start the development server**
 ```bash
-node index.js
+node server.js
 ```
 
-The server will start at `http://localhost:3000`
+The server will start at `http://localhost:5000`
 
 **4. Test the endpoint**
 ```bash
-curl http://localhost:3000/me
+curl http://localhost:5000/me
 ```
 
 ## 📦 Dependencies
@@ -80,9 +80,9 @@ npm install
 
 The API is deployed and accessible at:
 
-**🔗 [https://bilaal-hng-stage-0.up.railway.app/me](https://bilaal-hng-stage-0.up.railway.app/me)**
+**🔗 [https://bilaal-hng-stage-0.pxxl.click/me](https://bilaal-hng-stage-0.pxxl.click/me)**
 
-Hosted on [Railway](https://railway.app)
+Hosted on [Pxxl](https://pxxl.app)
 
 ## 🔧 Configuration
 
@@ -93,7 +93,7 @@ Create a `.env` file in the root directory if you want to customize the port:
 PORT=5000
 ```
 
-If not specified, the app defaults to port `5000` or uses Railway's provided `PORT` environment variable in production.
+If not specified, the app defaults to port `5000` or uses Pxxl's provided `PORT` environment variable in production.
 
 ## 📁 Project Structure
 ```
@@ -110,11 +110,11 @@ You can test the API using:
 
 **cURL:**
 ```bash
-curl https://bilaal-hng-stage-0.up.railway.app/me
+curl https://bilaal-hng-stage-0.pxxl.click/me
 ```
 
 **Browser:**  
-Simply visit [https://bilaal-hng-stage-0.up.railway.app/me](https://bilaal-hng-stage-0.up.railway.app/me)
+Simply visit [https://bilaal-hng-stage-0.pxxl.click/me](https://bilaal-hng-stage-0.pxxl.click/me)
 
 **Postman/Thunder Client:**  
 Send a GET request to the `/me` endpoint
